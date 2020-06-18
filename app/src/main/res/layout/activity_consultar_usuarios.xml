@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/campoBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Documento" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Buscar"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/campoNombreAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/campoTelefonoAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Telefono" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_put_user"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Actualizar"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/btn_delete_user"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Eliminar"
+                android:onClick="onClick"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
