@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="832d99c9-1fd7-4262-b7e9-0f0684ee272b">
-        <schema name="main" object-types="index, constraint, column, table, view, dataset trigger" />
+        <schema name="main" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -34,7 +34,7 @@
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="832d99c9-1fd7-4262-b7e9-0f0684ee272b">
-      <console name="Conne" type="STANDARD" schema="main" session="Main"><![CDATA[select * from usuario]]></console>
+      <console name="Conne" type="STANDARD" schema="main" session="Main">select * from usuario</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
